@@ -73,7 +73,7 @@ export function initOrUpdateBar(data) {
                         data: temperatures,
                         backgroundColor: "rgba(255,99,132,0.6)",
                         yAxisID: 'y1',
-                        color: '#42281F', // Màu chữ tiêu đề
+                        color: '#42281F', // Màu chữ tiêu đ
                     },
                     {
                         type: 'line',
