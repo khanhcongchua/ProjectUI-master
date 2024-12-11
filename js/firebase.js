@@ -71,7 +71,8 @@ export const getWeatherToday = async () => {
 
     let data;
 
-    const q = query(collection(db, "weatherToday"), where('timestamp', '==', today.toLocaleDateString().toString()));
+    const q = query(collection(db, "weatherToday"), 
+        where('timestamp', '==', today.toLocaleDateString().toString()));
     const querySnapshot = await getDocs(q);
     querySnapshot.forEach((doc) => {
         data = doc.data();

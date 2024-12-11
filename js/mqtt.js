@@ -79,7 +79,7 @@ export function initOrUpdateBar(data) {
                         type: 'line',
                         label: 'Độ ẩm',
                         data: humidities,
-                        borderColor: "blue",
+                        borderColor: "rgba(0, 156, 255, .5)",
                         yAxisID: 'y2',
                         color: '#42281F', // Màu chữ tiêu đề
                     }

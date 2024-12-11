@@ -28,7 +28,6 @@ function dataWeather(data) {
     const weatherTitle = data.data[0].weather.description;
 
     const solarRad = data.data[0].solar_rad;
-    console.log(solarRad);
 
     const temp = data.data[0].temp;
     const humidity = data.data[0].rh;
@@ -129,7 +128,7 @@ function renderPredictWeather7days(data) {
 const date = new Date();
 const today = new Date(date.getTime());
 //Define some timeline to update api
-const SixAm = new Date(date.getFullYear(), date.getMonth(), date.getDay() + 1, 6, 0, 0); //6am
+const SixAm = new Date(date.getFullYear(), date.getMonth(), date.getDay() + 1, 13, 46, 0); //6am
 const NineAm = new Date(date.getFullYear(), date.getMonth(), date.getDay() + 1, 9, 0, 0); //9am
 const noon = new Date(date.getFullYear(), date.getMonth(), date.getDay() + 12, 0, 0); //12am
 const TwoPm = new Date(date.getFullYear(), date.getMonth(), date.getDay() + 1, 14, 0, 0); //2pm
@@ -160,9 +159,10 @@ if (
     const weatherToday = await getWeatherToday();
     renderWeatherToday(weatherToday);
 
+
+
     const weather7Days = await getWeather7days();
     renderPredictWeather7days(weather7Days);
 
 }
-
 

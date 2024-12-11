@@ -32,6 +32,7 @@
 /*** Button ***/
 .btn {
     transition: .5s;
+    /* background-color: #42281F; */
 }
 
 .btn.btn-primary {
@@ -93,6 +94,7 @@
     transition: 0.5s;
     width: 100%;
     /* width: 100vw; Chiều rộng 100% màn hình */
+    /* border: 1px solid black; */
 }
 
 
@@ -188,7 +190,11 @@
     padding-left: 25px;
     border-radius: 0 30px 30px 0;
 }
+.content .navbar{
+    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+    background-color: #F4F1ED;
 
+}
 .content .navbar .navbar-nav .nav-link {
     margin-left: 25px;
     padding: 12px 0;
@@ -296,7 +302,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+    /* border: #191C24 1px solid; */
 }
 
 
@@ -310,6 +316,9 @@
     padding: 30px 0 4px 0;
     position: relative;
 }
+
+
+
 
 .weather-inf h6{
     position: absolute;
@@ -365,16 +374,102 @@
     color: #42281F;
 }
 
-h6{
+
+h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
     color: #42281F;
 }
+
+h6{ 
+    color: #42281F;
+}
+
 body {
-    background-color: #F4F1ED;
+    background-color: #DED3C6;
     
 }
 
 
+.footer{
+    top:100px;
+    margin-top: 130px;
+    color: #42281F;
+    
+}
+.footer1{
+    color: #42281F;
+}
 
+a{
+    color: #3A844F;
+}
+
+.header{
+    margin-bottom: 150px;
+    
+}
+
+.greenbutton{
+    
+    
+}
+
+.jss2586 {
+    width: 150px;
+    height: 40px;
+    margin-top: 4px;
+    border-radius: 4px;
+}
+
+.jss706 {
+    color: #F4F1ED;
+    background-color: #3A844F;
+}
+
+.jss705 {
+    color: rgba(0, 0, 0, 0.87);
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+    /* background-color: #e0e0e0; */
+}
+
+.jss694 {
+    color: #42281F;
+    padding: 6px 16px;
+    font-size: 0.875rem;
+    min-width: 64px;
+    box-sizing: border-box;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    line-height: 1.75;
+    font-weight: 500;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.jss676 {
+    color: inherit;
+    border: 0;
+    margin: 0;
+    cursor: pointer;
+    display: inline-flex;
+    outline: none;
+    padding: 0;
+    position: relative;
+    align-items: center;
+    
+    vertical-align: middle;
+    justify-content: center;
+    -moz-appearance: none;
+    text-decoration: none;
+    /* background-color: transparent; */
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.Form{
+    /* padding: 24px; */
+}
 
 .recommend-inf_text {
     margin-top: 10px;
